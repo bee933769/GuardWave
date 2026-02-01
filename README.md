@@ -1,54 +1,39 @@
- BlueRing Security b# ash: GuardWave: not found
+# GuardWave v1 — BlueRing Security
 
-**NO DAYS OFF.**
+**Slogan:** NO DAYS OFF!  
 
-GuardWave is a local-first, privacy-preserving security awareness CLI that helps users **identify phishing, account compromise signals, and suspicious alerts in real time** bp
-ash: without: not found
+GuardWave is a lightweight, local-first security CLI designed to help you monitor, classify, and log suspicious events instantly. Built by BlueRing Security — inspired by the intelligence and resilience of the deadliest octopus.  
 
-Built by **BlueRing Security**, inspired by the deadliest octopus in the ocean: small, fast, and lethal to threats.
+## Features
+- Classify alerts automatically: Account Logins, Phishing, App Permission Changes
+- Timeline logging & PDF export for offline review
+- Fast, minimal dependencies, Python 3.9+ compatible
+- Secure local-first operation — no cloud dependencies
 
----
+## Installation
+# Clone the repo
+git clone https://github.com/bee933769/GuardWave.git
+cd GuardWaveBundle
 
-## p
-GuardWave is a **human-in-the-loop security signal analyzer**.
+# Install dependencies in virtual environment
+python3 -m venv venv
+source venv/bin/activate
+pip install --upgrade pip
+pip install fpdf2 pillow fonttools defusedxml
 
-s dangerous
-- Logs events locally
-- Builds a security tit start with malware.
+# Make scripts executable
+chmod +x bin/*.sh src/*.py
 
-They start with **confusion**.
+## Usage
+# Launch the GuardWave CLI
+./bin/run.sh
+# or
+python3 src/guardwave.py
 
-GuardWave trains users to recognize real-world attack patterns:
-- Phishing & scam language
-- Account takeover signals
-- Social engineering hooks
+## Contributing
+- Fork the repo, make your changes, and submit a pull request.
+- Please review SECURITY.md for responsible disclosure policies.
 
-It turns **gut instinct into signal clarity**.
+## License
+MIT License — see LICENSE file.
 
----
-
-## pmeline
- Core Principles
-
-- p- p- p- b! **Fast, offline, resilient**
-
----
-
-## p
-
-No AI spying.  
-No cloud uploads.  
-No days off.
-
----
-
-## p
-Most breaches donbYou paste in:
-- Email alerts
-- SMS warnings
-- Login notifications
-- b
-GuardWave instantly:
-- Classifies the threat
-- Assigns risk (HIGH / MEDIUM / LOW)
-- Explains *why* itb
