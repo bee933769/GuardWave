@@ -1,39 +1,31 @@
-# GuardWave v1 — BlueRing Security
+# GuardWave v1 beta
 
-**Slogan:** NO DAYS OFF!  
+**BlueRing Security** presents:
 
-GuardWave is a lightweight, local-first security CLI designed to help you monitor, classify, and log suspicious events instantly. Built by BlueRing Security — inspired by the intelligence and resilience of the deadliest octopus.  
+Slogan: NO DAYS OFF!
 
-## Features
-- Classify alerts automatically: Account Logins, Phishing, App Permission Changes
-- Timeline logging & PDF export for offline review
-- Fast, minimal dependencies, Python 3.9+ compatible
-- Secure local-first operation — no cloud dependencies
+---
+
+## About
+GuardWave is a local-first security CLI for monitoring and logging suspicious events in real-time. It supports PDF export, incident classification, and an intuitive dashboard.
 
 ## Installation
-# Clone the repo
-git clone https://github.com/bee933769/GuardWave.git
-cd GuardWaveBundle
+./install.sh
 
-# Install dependencies in virtual environment
-python3 -m venv venv
-source venv/bin/activate
-pip install --upgrade pip
-pip install fpdf2 pillow fonttools defusedxml
-
-# Make scripts executable
-chmod +x bin/*.sh src/*.py
-
-## Usage
-# Launch the GuardWave CLI
+## Run the app
 ./bin/run.sh
-# or
+
+### OR run Python directly
 python3 src/guardwave.py
 
-## Contributing
-- Fork the repo, make your changes, and submit a pull request.
-- Please review SECURITY.md for responsible disclosure policies.
+## Repo structure
+- bin/
+- data/
+- src/
+- install.sh
+- README.md
+- .gitignore
+- SECURITY.md
 
 ## License
-MIT License — see LICENSE file.
-
+MIT

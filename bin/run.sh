@@ -1,4 +1,8 @@
 #!/bin/bash
-# Navigate to src and run guardwave.py with the virtual environment
-cd "$(dirname "$0")/../src" || exit 1
+# Run GuardWave CLI
+
+# Go to the folder where this script lives
+cd "$(dirname "$0")/../src"
+
+# Run the app using the venv Python
 ../venv/bin/python3 guardwave.py
