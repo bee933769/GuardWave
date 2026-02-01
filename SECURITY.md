@@ -1,30 +1,50 @@
-# Security Policy — GuardWave
+# Security Policy b
+ash: GuardWave: not found
+
+**Maintainer:** BlueRing Security  
+**Slogan:** NO DAYS OFF!
+
+---
 
 ## Reporting a Vulnerability
 
-If you discover a security issue in GuardWave, please report it responsibly:
+If you discover a security vulnerability in GuardWave:
 
-- Send an email to: security@blueringsecurity.com
-- Include:
-  - Steps to reproduce the issue
-  - Version of GuardWave
-  - Any relevant screenshots/logs
+1. **Do NOT open a public issue** b
+ash: this: not found
+2. Send a private email to: security@blueringsecurity.com (or create a secure contact form if email is not ready).  
+3. Include:
+   - Description of the issue
+   - Steps to reproduce
+   - Impact assessment (if possible)
+   - Environment details (OS, Python version, dependencies)
 
-We take security seriously and will respond within 48 hours.
+We will acknowledge receipt within 48 hours and provide a timeline for patching.
 
-## Supported Versions
+---
 
-Only the latest release branch (`main`) is officially supported. Older versions may not receive security updates.
+## Safe Usage
 
-## Security Best Practices
+- GuardWave is a **local-first CLI tool**.  
+- Do **not run on untrusted environments** without proper permissions.  
+- Only run scripts from the `bin/` folder included in this repo.  
+- Always keep your Python virtual environment isolated (`venv`).  
 
-- Always run GuardWave in its Python virtual environment (`venv`) to isolate dependencies.
-- Do not share sensitive credentials in logs or config files.
-- Keep dependencies updated:
-\`\`\`bash
-pip install --upgrade pip fpdf2 pillow fonttools defusedxml
-\`\`\`
+---
 
-## Disclaimer
+## Dependencies
 
-GuardWave is provided as-is. Users are responsible for safe operation within their environments.
+- `fpdf2`  
+- `pillow`  
+- `fonttools`  
+- `defusedxml`  
+
+**Security notes:**
+- Only install dependencies in a virtual environment.  
+- Update packages regularly to avoid known vulnerabilities.  
+
+---
+
+## Responsible Disclosure
+
+We aim to **resolve security issues quickly and transparently**. Contributions and reports are welcome via private channels only until a fix is released.  
