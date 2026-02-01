@@ -1,17 +1,22 @@
-# Python environment
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual Environment
 venv/
 
-# Python cache files
-__pycache__/
-*.pyc
-
-# Logs and PDFs
+# Logs / Data
 data/*.log
 data/*.pdf
 
-# Environment files
-*.env
-
-# OS junk
+# OS / IDE files
 .DS_Store
 Thumbs.db
+.idea/
+.vscode/
+
+# Temporary / test files
+*.tmp
+*.bak
