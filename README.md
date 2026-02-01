@@ -1,4 +1,6 @@
-# GuardWave v1 beta
+git add README.md
+git commit -m "Resolve merge conflict"
+git push# GuardWave v1 beta
 
 **BlueRing Security** presents:
 
