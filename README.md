@@ -4,9 +4,7 @@
 
 ![image](https://github.com/user-attachments/assets/eec14d60-e6b0-471e-81aa-d9167ef161bb)
 
-git add README.md
-git commit -m "Resolve merge conflict"
-git push# GuardWave v1 beta
+# GuardWave v1 beta
 
 **BlueRing Security** presents:
 
