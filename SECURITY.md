@@ -10,7 +10,7 @@
 If you discover a security vulnerability in GuardWave:
 
 1. **Do NOT open a public issue** — this is sensitive.  
-2. Send a private email to: securityblueringsecurity.proton.me 
+2. Send a private email to: securityblueringSECURITY.proton.me 
 3. Include:
    - Description of the issue
    - Steps to reproduce
