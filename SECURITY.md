@@ -1,7 +1,6 @@
-# Security Policy b
-ash: GuardWave: not found
+# Security Policy GuardWave v1
 
-**Maintainer:** BlueRing Security  
+**Maintainer:** BlueRing Security
 **Slogan:** NO DAYS OFF!
 
 ---
@@ -10,9 +9,8 @@ ash: GuardWave: not found
 
 If you discover a security vulnerability in GuardWave:
 
-1. **Do NOT open a public issue** b
-ash: this: not found
-2. Send a private email to: security@blueringsecurity.com (or create a secure contact form if email is not ready).  
+1. **Do NOT open a public issue** this is senstive.
+2. Send a private email to: security@blueringsecurity.com  
 3. Include:
    - Description of the issue
    - Steps to reproduce
@@ -47,4 +45,4 @@ We will acknowledge receipt within 48 hours and provide a timeline for patching.
 
 ## Responsible Disclosure
 
-We aim to **resolve security issues quickly and transparently**. Contributions and reports are welcome via private channels only until a fix is released.  
+We aim to **resolve security issues quickly and transparently**. Contributions and reports are welcome via private channels only until a fix is released.

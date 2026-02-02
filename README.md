@@ -1,33 +1,38 @@
-git add README.md
-git commit -m "Resolve merge conflict"
-git push# GuardWave v1 beta
+# GuardWave v1 beta
 
 **BlueRing Security** presents:
 
-Slogan: NO DAYS OFF!
+**Slogan:** NO DAYS OFF!
 
 ---
 
 ## About
-GuardWave is a local-first security CLI for monitoring and logging suspicious events in real-time. It supports PDF export, incident classification, and an intuitive dashboard.
+GuardWave is a local-first security CLI for monitoring and logging suspicious events in real-time.
+It supports PDF export, incident classification, and an intuitive dashboard.
 
 ## Installation
+Run:
 ./install.sh
 
-## Run the app
+## Run the App
+Run:
 ./bin/run.sh
-
-### OR run Python directly
+# OR
 python3 src/guardwave.py
 
-## Repo structure
-- bin/
-- data/
-- src/
-- install.sh
-- README.md
-- .gitignore
-- SECURITY.md
-
-## License
-MIT
+## Project Structure
+GuardWaveBundle/
+b
+ bin/
+bbbb
+ data/
+b
+ .gitkeep
+b
+ README.md
+b
+ SECURITY.md
+b
+ .gitignore
+b
+ venv/       # ignored by git
